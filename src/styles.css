@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+.breadcrumb {
+    padding: 0.75rem 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    border-bottom: 2px solid blueviolet;
+    background-color: transparent;
+    border-radius: 0;
+    font-weight: 500;
+}
+a{
+    color: blueviolet
+}
+input.search{
+    border-radius: 25px;
+    border: 1px solid #bdbdbd;
+    padding-left: 70px; 
+}
+input.search:focus{
+    border: 2px solid blueviolet;
+}
+.search-icon{
+    left: 60px;
+    color: blueviolet;
+}
+
+input[type=text]:focus:not([readonly]){
+    border-bottom: 1px solid #8a2be3;
+    box-shadow: 0 1px 3px 0 #8a2be3;
+}
+fa{
+    font-size: 17px!important;
+}
+.fa-trash{
+    color: red;
+    font-size: 20px;
+}
+.fa-edit{
+    color: #3949AB;
+    font-size: 20px;
+
+}

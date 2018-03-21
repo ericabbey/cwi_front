@@ -1,0 +1,33 @@
+/* .breadcrumb {
+    padding: 0.75rem 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    border-bottom: 2px solid blueviolet;
+    background-color: white;
+} */
+.user-card{
+    padding: 10px;
+}
+.inner-card{
+    min-height: 100px;
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 3px silver;
+    position: relative
+}
+.inner-card .avatar{
+    width: 70px;
+    overflow: hidden;
+    display: inline-block;
+}
+.inner-card .avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+.inner-card h4{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 35%;
+}

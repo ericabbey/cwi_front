@@ -1,0 +1,67 @@
+.content-card .inner-card{ 
+    border: 1px solid silver;
+    padding: 10px;
+    box-shadow: 1px 1px 3px silver;
+    padding: 0;
+}
+.card-banner{
+    height: 100px;
+    background-size: cover;
+    background-position: 20px;
+    /* background-repeat:  */
+}
+.main-highlight{
+     font-weight: 500;
+     color: blueviolet;
+}
+.content-element{
+    padding: 10px;
+}
+.tags span{
+    background-color: blueviolet;
+    padding: 5px 8px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.highlight{
+    color: #797979;
+    font-size: 13px;
+}
+.play-btn{
+    color: blueviolet;
+}
+.player-box{
+    display: flex;
+    justify-content: space-between
+}
+.seek{
+    width: 90%;
+    height: 5px;
+    background-color: slategray;
+    position: relative;
+    top: 5px;
+}
+.seek-inner{
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 5px #41027b;
+}
+.comment-box{
+    position: relative;
+    background-color: rgba(137, 43, 226, 0.111);
+    padding: 10px;
+}
+.comment-box p{
+    margin-bottom: 2px !important;
+}
+.comment-icon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.comment-icon, .comment-icon .fa-trash {
+    color: silver !important;
+}
